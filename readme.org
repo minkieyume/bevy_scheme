@@ -1,3 +1,3 @@
 #+TITLE: ReadMe
 
-This is chiko's personal bevy test and study project.
+Experiental Bevy Scheme Bindings
