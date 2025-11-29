@@ -13,6 +13,8 @@
 	    "gcc-toolchain"
 	    "binutils"
 	    "pkg-config"
+	    "clang"
+	    "llvm"
 	    "wayland"
 	    "wayland-protocols"
 	    "egl-wayland"

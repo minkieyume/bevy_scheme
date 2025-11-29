@@ -1,10 +1,15 @@
 [package]
 name = "bevy_scheme"
+authors = ["MinkieYume <minkieyume@yumieko.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.org"
+categories = ["game-development"]
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 bevy = "0.17.3"
+guile = { git="https://github.com/minkieyume/guile-rs", branch="chiko", features = ["dynamic"] }
 
 # 开发模式里（cargo build），对自己写的代码用小优化
 [profile.dev]
