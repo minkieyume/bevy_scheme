@@ -1,0 +1,12 @@
+#+TITLE: 架构思路
+
+* SchemeVM资源
+将SchemeVM注册为资源，并在Bevy初始化时随Bevy初始化VM。
+
+* SchemeValue数据转换
+负责将Scheme的数据和类型与Rust以及Bevy的数据和类型相互转换。
+需要转换的类型如下所示：
+- 基本类型(int、float、bool、String)
+- 复合类型(List、Vector)
+- 函数
+- 结构体、Traits

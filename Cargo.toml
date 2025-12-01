@@ -7,6 +7,14 @@ categories = ["game-development"]
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "bevy_scheme"
+path = "src/lib.rs"
+
+[features]
+default = ["guile"]
+guile = []
+
 [dependencies]
 bevy = "0.17.3"
 guile = { git="https://github.com/minkieyume/guile-rs", branch="chiko", features = ["dynamic"] }
@@ -18,3 +26,7 @@ opt-level = 1
 # 但对依赖库用高优化（opt-level = 3）
 [profile.dev.package."*"]
 opt-level = 3
+
+[[example]]
+name = "run_bevy_scheme"
+path = "examples/run_bevy_scheme.rs"

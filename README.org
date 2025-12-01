@@ -1,3 +1,5 @@
 #+TITLE: ReadMe
 
 Experiental Bevy Scheme Bindings
+
+if using Guile, you have to add
